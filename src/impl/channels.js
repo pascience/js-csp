@@ -4,7 +4,7 @@ var buffers = require("./buffers");
 var dispatch = require("./dispatch");
 
 var MAX_DIRTY = 64;
-var MAX_QUEUE_SIZE = 1024;
+var MAX_QUEUE_SIZE = 4096;
 
 var CLOSED = null;
 
